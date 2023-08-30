@@ -1,0 +1,74 @@
+.gradient-box {
+    width: 500px;
+    height: 200px;
+    position: relative;
+    margin: 20px;
+}
+.gradient1 {
+    background-image: linear-gradient(purple, blue) ;
+}
+.gradient2{
+    background-image: linear-gradient(to right, purple, blue);
+}
+.gradient3{
+background-image: linear-gradient(to left, purple, blue);
+}
+.gradient4{
+    background-image: linear-gradient(to top left, purple, blue);
+}
+.gradient5{
+    background-image: linear-gradient(to top right, purple, blue );
+}
+.gradient6{
+    background-image: linear-gradient(purple,blue,red);
+}
+.gradient7{
+    background-image: radial-gradient(#3022,#db983d);
+}
+.gradient8{
+    background-image: radial-gradient(#9992 10%, #8634a8 30%, #233232 );
+}
+@font-face{
+    font-family: "Sedgwick Ave Display";
+    src: url(SedgwickAveDisplay-Regular.ttf);
+}
+.fontface{
+    font-family: "Sedgwick Ave Display";
+}
+.mediaquery{
+    height: 200px;
+    width: 1200px;
+    background-color: red;
+}
+
+@media (max-widht: 1000px){
+    .mediaquery{
+        width: 500px;
+        background-color: blue;
+    }
+}
+@media (max-widht: 768px){
+    .mediaquery{
+        width: 300px;
+        background-color: green;
+    }
+}
+@media (max-widht: 512px){
+    .mediaquery{
+        width: 200px;
+        background-color: pink;
+    }
+}
+.div-border{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    margin: 20px;
+}
+.border-radius1{
+    border-radius: 50px;
+}
+.border-radius2{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
